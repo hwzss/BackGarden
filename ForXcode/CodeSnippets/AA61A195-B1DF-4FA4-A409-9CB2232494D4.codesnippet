@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>XH_NoDataTableFooterView</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>if (self.dataArr.count==0) {
+    self.tableView.tableFooterView=[WZ_LoadState WZ_showNoDataState:WZ_State_NoData Title:nil SubTitle:nil ShowInView:nil Frame:self.tableView.bounds RefreshCallBack:nil];
+}else{
+    self.tableView.tableFooterView=[UIView new];
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>AA61A195-B1DF-4FA4-A409-9CB2232494D4</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>XH_NoDataTableFooterView</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>XH_NoDataTableFooterView</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

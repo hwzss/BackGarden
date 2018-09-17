@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>xhHttpMethodCallBack</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    if([[responseDict objectForKey:@"status"] isEqualToString:@"SUCCESS"]){
+        &lt;#data#&gt;=[responseDict objectForKey:@"data"];
+                }else if([[responseDict objectForKey:@"status"] isEqualToString:@"err"]){
+                    [MBProgressHUD showSingleMessage:[responseDict objectForKey:@"errInfo"]];
+                    &lt;#doSomething#&gt;
+                }</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>FDA753B6-4CF8-4504-9BA3-8F8A2A3009CF</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>xhHttpMethodCallBack</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>xhHttpMethodCallBack</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>xh_createCell</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>&lt;#cellClass#&gt; *cell = [tableView dequeueReusableCellWithIdentifier:[&lt;#cellClass#&gt; yf_cellReuseIdentifier] forIndexPath:indexPath];
+
+return cell;</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>54407AEB-0DDD-4628-87C0-6704E9F14D29</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>xh_createCell</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>xh_createCell</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

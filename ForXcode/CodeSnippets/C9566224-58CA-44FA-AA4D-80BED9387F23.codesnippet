@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>XH_ADD_MJ_Method</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>+ (NSDictionary *)replacedKeyFromPropertyName
+{
+    return @{@"ID" : @"id",
+             };
+}
++ (NSDictionary *)objectClassInArray
+{
+    return @{
+             @"postCommentVos" : @"CIM_Comment"
+             };
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>C9566224-58CA-44FA-AA4D-80BED9387F23</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>XH_ADD_MJ_Method</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>XH_ADD_MJ_Method</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

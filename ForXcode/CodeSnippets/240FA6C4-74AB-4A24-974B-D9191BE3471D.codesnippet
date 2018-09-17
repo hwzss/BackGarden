@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>YFX_HTTP</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>+ (void)yf_&lt;#接口名#&gt;:&lt;#参数#&gt; success:(void(^)(id jsondata))successBlock error:(void(^)(NSString *errorStr))errorBlock connectFailure:(void(^)(NSError *error))connectfailureBlock {
+[YF_HttpUnit yf_post:&lt;#接口地址#&gt;  parameters:^(NSMutableDictionary *params) {
+params[@"&lt;#参数名#&gt;"] = &lt;#值#&gt;;
+    } success:^(id jsonData) {
+        !successBlock?:successBlock(jsonData);
+    } failure:^(NSString *errorStr) {
+        !errorBlock?:errorBlock(errorStr);
+    } connectfailure:^(NSError *error) {
+        !connectfailureBlock?:connectfailureBlock(error);
+    }];
+}
+
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>240FA6C4-74AB-4A24-974B-D9191BE3471D</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>YFX_HTTP</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>YFX_HTTP</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

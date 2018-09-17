@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>ESA_HTTPMETHOD</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>+(void)ESA_&lt;#接口名称#&gt;With&lt;#参数#&gt;:&lt;#参数#&gt;
+                     Success:(RequestSuccess)success
+                       Error:(RequestError)errorblock
+              Connectfailure:(RequestConnectfailure)ConnectfailureBlock{
+                  [XH_HttpTool XH_POST_3:[ESA_UrlTool ESA_getInterfaceURLWithUrlRouter:&lt;#url#&gt;] parameters:^(NSMutableDictionary *params) {
+        params[@"&lt;#参数名称#&gt;"]=&lt;#参数值#&gt;;
+      
+    } success:^(id jsonData) {
+        
+        if (success) {
+            success(jsonData);
+        }
+    } failure:^(NSString *errorStr) {
+        if (errorblock) {
+            errorblock(errorStr);
+        }
+        
+    } connectfailure:^(BOOL *isShowErrorAlert) {
+        if (ConnectfailureBlock) {
+            ConnectfailureBlock(isShowErrorAlert);
+        }
+    }];
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>CBD73E9F-6A91-486F-97D3-22049D4ED452</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>ESA_HTTPMETHOD</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>ESA_HTTPMETHOD</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

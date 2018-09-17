@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>XH_TableFooterView_NoData</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>&lt;#table#&gt;.tableFooterView = [WZ_LoadState WZ_showNoDataState:&lt;#(loadState)#&gt; Title:&lt;#(NSString *)#&gt; SubTitle:&lt;#(NSString *)#&gt; ShowInView:&lt;#(UIView *)#&gt; Frame:&lt;#(CGRect)#&gt; RefreshCallBack:&lt;#^(void)callBack#&gt;];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>0C136E77-608B-4229-BDF2-D28D3A4C5F05</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>XH_TableFooterView_NoData</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>XH_TableFooterView_NoData</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

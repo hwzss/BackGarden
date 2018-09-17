@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>ChatCellManger_Cell</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>+(BOOL)is_&lt;#prifix#&gt;MessageModel:(id&lt;IMessageModel&gt;)messageModel{
+    return messageHasExtForKey(messageModel, &lt;#extKey#&gt;);
+}
++(UITableViewCell *)&lt;#prifix#&gt;_cellForTable:(UITableView *)tableView MessageModel:(id&lt;IMessageModel&gt;)messageModel{
+    
+    return [tableView dequeueReusableCellWithIdentifier:&lt;#cellIdentifier#&gt;];
+}
++(CGFloat )&lt;#prifix#&gt;_heightForMessageModel:(id&lt;IMessageModel&gt;)messageMode InTable:(UITableView *)tableView{
+    
+    return [tableView fd_heightForCellWithIdentifier:&lt;#cellIdentifier#&gt; configuration:^(id cell) {
+        
+    }];
+}
++(void)&lt;#prifix#&gt;_didSelectMessageModel:(id&lt;IMessageModel&gt;)messageModel{
+    
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>1E3C4097-5B21-47EB-9F4D-EFEEF3FCF4EF</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>ChatCellManger_Cell</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>ChatCellManger_Cell</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
